@@ -103,12 +103,10 @@ router.post('/register', (req, res, next) => {
     });
 });
 
-// /* GET - perform user logout */
-// router.get('/logout', (req, res, next) => {
-//   res.render('content/index', {
-//     title: 'Home',
-//     books: ''
-//    });
-// });
+/* GET - perform user logout */
+router.get('/logout', (req, res, next) => {
+  req.logout();
+  res.redirect('/');
+});
 
 module.exports = router;
