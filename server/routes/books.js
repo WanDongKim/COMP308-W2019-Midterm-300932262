@@ -1,3 +1,10 @@
+/* 
+  File name: books.js
+  Author's name: Dongwan Kim
+  Student ID: 300932262
+  Web App name: My Favourite Books
+*/
+
 // modules required for routing
 let express = require('express');
 let router = express.Router();
